@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-ExtraLight.ttf");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Light.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../font/Inter-ExtraBold.ttf");
+  font-weight: 800;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #D8ECFF;
+  background-size: cover;
+  font-family: "Inter";
+  font-weight: 100;
+  margin: 0;
+  padding: 0;
+}
+
+
+#root {
+  background: url('../img/sunny.jpg');
+  background-size: cover;
+}
+
+.overlay {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  min-height: 100vh;
+  min-width: 100vw;
+  background-color: rgba(0, 0, 0, 0.25);
+}

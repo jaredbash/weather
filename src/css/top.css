@@ -1,0 +1,15 @@
+.main_top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: normal;
+  font-size: 1.75em;
+}
+
+.main_top_city {
+  font-weight: 500;
+}
+
+.main_top_datetime {
+  font-weight: 100;
+}
